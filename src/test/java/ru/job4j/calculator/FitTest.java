@@ -20,7 +20,6 @@ public class FitTest {
         double expected = 69;
         double out = Fit.womanWeight(in);
         Assert.assertEquals(expected, out, 0.01);
-        /* Написать свой тест. */
     }
 
 }
