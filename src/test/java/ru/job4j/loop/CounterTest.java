@@ -12,4 +12,13 @@ public class CounterTest {
         int expected = 30;
         Assert.assertEquals(expected, result);
     }
+
+    @Test
+    public void whenSumEvenNumbersFromSevenToTwelveThenThirty() {
+        int start = 7;
+        int finish = 12;
+        int result = Counter.sumByEven(start, finish);
+        int expected = 30;
+        Assert.assertEquals(expected, result);
+    }
 }
